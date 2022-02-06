@@ -104,8 +104,8 @@ if (ans == 1 || ans >= 1 || ans == "yes" || ans == "Yes" || ans == "yeap" || ans
     alert("error404");
   }
   let days = (90 - age) * 365;
-  let weeks = age * 52;
-  let months = age * 12;
+  let weeks = (90 - age) * 52;
+  let months = (90 - age) * 12;
 
   function YearsLeft() {}
   YearsLeft(age);
